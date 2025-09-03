@@ -1,2 +1,21 @@
-# UAV-Human-Identification-System
-Developed a multi-modal computer vision model using CNNs with an EfficientNetV2-M backbone to detect humans and human-like figures from RGB and thermal UAV imagery. Optimized and quantized the model for ESP32-C6 deployment, enabling real-time on-device inference for UAV-based autonomous operations.
+# 🛰️ UAV Human Identification System
+
+A **multi-modal computer vision model** for **human detection** from UAVs using **RGB** and **thermal imagery**.  
+Built using **CNNs** with **EfficientNetV2-M** backbone and deployed on an **ESP32-C6** for **real-time TinyML inference**.
+
+---
+
+## 📌 Features
+- Uses **CNNs + EfficientNetV2-M** for robust human detection
+- Processes **RGB + thermal images** for higher accuracy in diverse environments
+- **Quantized model** for **on-device inference** on ESP32-C6
+- Enables **autonomous UAV operations** without cloud dependency
+
+---
+
+## 🛠️ Tech Stack
+- **Languages:** Python, OpenCV, NumPy  
+- **ML Models:** EfficientNetV2-M, CNN  
+- **Deployment:** ESP32-C6, TensorFlow Lite, TinyML  
+- **Visualization:** Matplotlib  
+- **Environment:** Google Colab
